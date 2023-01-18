@@ -13,7 +13,7 @@ form.addEventListener(
   }, 500)
 );
 
-form.addEventListener('submit', e => { 
+form.addEventListener('submit', e => {
   e.preventDefault();
   console.log({ email: email.value, message: message.value });
   form.reset();

@@ -8,7 +8,7 @@ import SimpleLightbox from 'simplelightbox';
 
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const gallery = document.querySelector('.gallery'); 
+const gallery = document.querySelector('.gallery');
 const items = [];
 
 galleryItems.forEach(element => {
