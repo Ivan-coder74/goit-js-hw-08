@@ -15,6 +15,11 @@ form.addEventListener(
 
 form.addEventListener('submit', e => {
   e.preventDefault();
+if (!e.target.email.value || !e.target.message.value) {
+  alert('Enter all data');
+  return;
+}
+
   console.log({ email: email.value, message: message.value });
   form.reset();
   localStorage.removeItem(LOCALSTORAGE_KEY);
