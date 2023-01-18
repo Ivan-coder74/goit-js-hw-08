@@ -11,6 +11,6 @@ player.on('timeupdate',  throttle( e => {
 
 player
 .setCurrentTime(localStorage.getItem('videoplayer-current-time'))
-.catch(function (error) {
+.catch(function (error) { 
     console.error(error)
 });
